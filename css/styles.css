@@ -634,9 +634,16 @@ progress {
   content: "— ";
 }
 
+.img-avatar {
+  width: 150px;
+  height: 150px;
+  border: 3px solid black;
+  border-radius: 120px;
+}
+
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  width: 650px;
+  height: 500px;
 }
 
 .img-thumbnail {
@@ -11682,6 +11689,10 @@ body {
 .page-section {
   padding: 8rem 0;
 }
+.contact-section {
+  padding: 8rem 0;
+  padding-top: 4rem 0;
+}
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75) !important;
@@ -11702,6 +11713,12 @@ hr.divider {
   margin: 1.5rem auto;
   background-color: #1b396f;
   opacity: 1;
+}
+
+.hr-div {
+  color: #0d6efd;
+  height: 8px;
+  margin-top: 12px;
 }
 
 hr.divider-light {
@@ -11783,7 +11800,7 @@ header.masthead {
       rgba(92, 77, 66, 0.8) 0%,
       rgba(92, 77, 66, 0.8) 100%
     ),
-    url("../assets/btakdenizlogo.jfif");
+    url("../assets/img/portfolio/fullsize/6.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
